@@ -18,6 +18,8 @@ module.exports = {
       project: './tsconfig.json'
     },
     rules: {
-      'prettier/prettier': 'error'
+      'prettier/prettier': 'error',
+      "no-return-await": "off",
+      "@typescript-eslint/return-await": "error"
     }
   } 
